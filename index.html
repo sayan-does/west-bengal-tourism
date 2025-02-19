@@ -3,289 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to West Bengal Tourism</title>
+    <meta name="description" content="Discover the beauty and heritage of West Bengal through its culture, food, and scenic locations.">
+    <title>West Bengal Tourism</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
         body {
-            background: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(to right, #FF5F6D, #FFC371);
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        nav {
-            background: #333;
-            padding: 1rem;
-            position: sticky;
-            top: 0;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: background 0.3s;
-        }
-
-        nav a:hover {
-            background: #555;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        .hero-image {
-            width: 100%;
-            height: 400px;
-            background-color: #ddd;
-            margin: 2rem 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        .card {
-            background: white;
-            border-radius: 8px;
-            padding: 2rem;
-            margin: 2rem 0;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 4rem;
-        }
-
-        .highlight {
-            background: linear-gradient(120deg, #FFC371 0%, #FF5F6D 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: bold;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 0.8rem 1.5rem;
-            background: linear-gradient(to right, #FF5F6D, #FFC371);
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: transform 0.3s;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
+            background-color: #FFD8A8; /* Light orange tint */
         }
     </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#destinations">Destinations</a></li>
-            <li><a href="#heritage">Heritage</a></li>
-            <li><a href="#wildlife">Wildlife</a></li>
-            <li><a href="#culture">Culture</a></li>
-            <li><a href="#cuisine">Cuisine</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Home Page -->
-    <div id="home">
-        <header>
-            <h1>Welcome to West Bengal</h1>
-            <p>Experience the Magic of Bengal - Where Culture Meets Nature</p>
-        </header>
-
-        <div class="container">
-            <div class="hero-image">
-                <img src="gettyimages-145781372-612x612.jpg">
-            </div>
-
-            <div class="card">
-                <h2 class="highlight">Discover Bengal's Beauty</h2>
-                <p>From the snow-capped peaks of Darjeeling to the mangrove forests of Sundarbans, West Bengal offers a diverse tapestry of experiences waiting to be explored.</p>
-            </div>
-
-            <div class="grid">
-                <div class="card">
-                    <h3>Rich Heritage</h3>
-                    <p>Explore centuries of history through magnificent temples, palaces, and colonial architecture.</p>
-                    <a href="#heritage" class="btn">Learn More</a>
-                </div>
-                <div class="card">
-                    <h3>Natural Wonders</h3>
-                    <p>Discover diverse landscapes from the Himalayas to the Bay of Bengal.</p>
-                    <a href="#destinations" class="btn">Explore</a>
-                </div>
-                <div class="card">
-                    <h3>Vibrant Culture</h3>
-                    <p>Experience the warmth of Bengali hospitality and rich cultural traditions.</p>
-                    <a href="#culture" class="btn">Discover</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Destinations Page -->
-    <div id="destinations" class="container">
-        <header>
-            <h1>Popular Destinations</h1>
-            <p>Explore the Most Beautiful Places in West Bengal</p>
-        </header>
-
-        <div class="grid">
-            <div class="card">
-                <h3>Darjeeling</h3>
-                <div class="hero-image">
-                    <img src="Untitled-design-2023-03-25T145808.514.webp">
-                </div>
-                <p>Known for its tea plantations, toy train, and views of Mount Kanchenjunga.</p>
-            </div>
-
-            <div class="card">
-                <h3>Dooars</h3>
-                <div class="hero-image">
-                    <img src="gorumara-national-park.webp">
-                </div>
-                <p>Gateway to the Northeast, featuring lush forests and wildlife sanctuaries.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Heritage Page -->
-    <div id="heritage" class="container">
-        <header>
-            <h1>Cultural Heritage</h1>
-            <p>Discover Bengal's Rich Historical Legacy</p>
-        </header>
-
-        <div class="card">
-            <div class="hero-image">
-                <img src="gettyimages-553516907-612x612.jpg">
-            </div>
-            <h2>Architectural Marvels</h2>
-            <p>From Victorian-era buildings to ancient temples, West Bengal's architecture tells stories of its fascinating past.</p>
-        </div>
-    </div>
-
-    <!-- Wildlife Page -->
-    <div id="wildlife" class="container">
-        <header>
-            <h1>Wildlife Sanctuaries</h1>
-            <p>Experience Bengal's Natural Habitats</p>
-        </header>
-
-        <div class="card">
-            <div class="hero-image">
-                <img src="bandhavgarh_tiger_reserve_india_guide.webp">
-            </div>
-            <h2>Wildlife Encounters</h2>
-            <p>Explore diverse ecosystems and encounter magnificent wildlife in their natural habitat.</p>
-        </div>
-    </div>
-
-    <!-- Culture Page -->
-    <div id="culture" class="container">
-        <header>
-            <h1>Bengali Culture</h1>
-            <p>Immerse Yourself in Traditions and Festivals</p>
-        </header>
-
-        <div class="grid">
-            <div class="card">
-                <h3>Festivals</h3>
-                <p>Experience the grandeur of Durga Puja and other cultural celebrations.</p>
-            </div>
-            <div class="card">
-                <h3>Arts & Crafts</h3>
-                <p>Discover traditional handicrafts and contemporary art scenes.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Cuisine Page -->
-    <div id="cuisine" class="container">
-        <header>
-            <h1>Bengali Cuisine</h1>
-            <p>Savor the Flavors of Bengal</p>
-        </header>
-
-        <div class="grid">
-            <div class="card">
-                <h3>Traditional Dishes</h3>
-                <p>From street food to royal cuisine, experience the diverse flavors of Bengal.</p>
-            </div>
-            <div class="card">
-                <h3>Sweet Delicacies</h3>
-                <p>Indulge in famous Bengali sweets and desserts.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Page -->
-    <div id="contact" class="container">
-        <header>
-            <h1>Contact Us</h1>
-            <p>Plan Your Bengal Adventure</p>
-        </header>
-
-        <div class="card">
-            <h2>Get in Touch</h2>
-            <p>Email: info@bengaltourism.com</p>
-            <p>Phone: +91 XXXXXXXXXX</p>
-            <p>Address: Tourism Department, Government of West Bengal</p>
-        </div>
-    </div>
-
+    <center>
+    <header>
+        <h1><b>Welcome to West Bengal Tourism</b></h1>
+    </header>
+    </center>
+    <br><br><br><br><br><br>
+   <main>
+        <table border="1" width="100%">
+            <tr>
+                <th>Category</th>
+                <th>Preview</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Culture</td>
+                <td><img src="gettyimages-2177552017-612x612.jpg" alt="Culture of West Bengal" width="100" height="80"></td>
+                <td><a href="culture.html">Visit</a></td>
+            </tr>
+            <tr>
+                <td>Food</td>
+                <td><img src="gettyimages-512245538-2048x2048.jpg" alt="Food of West Bengal" width="100" height="80"></td>
+                <td><a href="food.html">Visit</a></td>
+            </tr>
+            <tr>
+                <td>Hill Stations</td>
+                <td><img src="gettyimages-165874768-612x612.jpg" alt="Hill Stations of West Bengal" width="100" height="80"></td>
+                <td><a href="hill_station.html">Visit</a></td>
+            </tr>
+            <tr>
+                <td>Beaches</td>
+                <td><img src="gettyimages-636176310-612x612.jpg" alt="Beaches of West Bengal" width="100" height="80"></td>
+                <td><a href="beach.html">Visit</a></td>
+            </tr>
+            <tr>
+                <td>Wildlife</td>
+                <td><img src="gorumara-national-park.webp" alt="Wildlife of West Bengal" width="100" height="80"></td>
+                <td><a href="wild_life.html">Visit</a></td>
+            </tr>
+            <tr>
+                <td>City of Joy</td>
+                <td><img src="gettyimages-145781372-612x612.jpg" alt="City of Joy - Kolkata" width="100" height="80"></td>
+                <td><a href="city_of_joy.html">Visit</a></td>
+            </tr>
+            <tr>
+                <td>Heritage Sites</td>
+                <td><img src="gettyimages-553516907-612x612.jpg" alt="Heritage Sites of West Bengal" width="100" height="80"></td>
+                <td><a href="heritage_sites.html">Visit</a></td>
+            </tr>
+        </table>
+    </main>
+    <br><br><br><br><br><br>
     <footer>
-        <p>&copy; 2025 West Bengal Tourism. All rights reserved.</p>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#destinations">Destinations</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <p>&copy; 2024 West Bengal Tourism. All rights reserved.</p>
     </footer>
 </body>
 </html>
